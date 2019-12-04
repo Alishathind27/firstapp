@@ -27,8 +27,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         imageView.animate().translationYBy(1500).setDuration(300);
-
+        System.out.println("hello");
     }
+
                           @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
